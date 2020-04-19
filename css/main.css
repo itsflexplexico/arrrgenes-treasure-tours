@@ -22,6 +22,10 @@ html {
   text-align: center;
 }
 
+.bgcolor {
+  background-color: #522806;
+}
+
 .nav a {
   color: #fff;
   text-decoration: none;
@@ -32,8 +36,12 @@ html {
 }
 
 .nav a:hover span,
-.nav a:focus span {
+.nav a span {
   border-bottom-color: #fff;
+}
+
+.nav a:focus {
+  outline: 3px solid #fff;
 }
 
 .banner {
@@ -54,7 +62,7 @@ html {
 }
 
 .btn-light:hover,
-.btn-light:focus {
+.btn-light {
   background-color: #522806;
   border-color: #522806;
 }
@@ -69,6 +77,7 @@ html {
   background-color: #bea59b;
   border-color: #fff;
   color: #522806;
+  outline-color: #fff;
 }
 
 .footer {
